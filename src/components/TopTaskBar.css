@@ -1,0 +1,39 @@
+
+.topTaskBar {
+    width: 1977px;
+    margin-left: 273px;
+    background: #232832;
+    height: 100px;
+    position: fixed;
+
+    border-radius: 0px 32px 0px 0px;
+    z-index: 2;
+}
+
+.topTaskBarContent {
+    padding-block: 17px;
+    margin-left: 30px;
+}
+
+.searchInput {
+    padding: 20px;
+    width: 480px;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 20px;
+    opacity: 1;
+    font-family: 'Inter';
+    padding-right: 65px;
+    background: #0F121A;
+    border-radius: 56px;
+}
+.searchInput::placeholder {
+    color: white;
+}
+
+.searchLogo {
+    margin-left: -60px;
+    width: 50px;
+    border: 0;
+}

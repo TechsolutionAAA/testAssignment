@@ -1,0 +1,48 @@
+
+body {
+    background-color: black;
+    font-family: 'Helvetica light', sans-serif;
+    font-style: normal;
+}
+
+
+.websiteContainer {
+    background: linear-gradient(180deg,#000,#004083);
+    border-radius: 32px;
+    height: 1250px;
+    margin: 0 auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 2250px;
+}
+
+.outer {
+    display: table;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+  
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.content {
+    margin-left: 22%;
+    position: absolute;
+    margin-left: 292px;
+    margin-top: 150px;
+    height: 100%;
+    width: 1963px;
+    
+    position: inherit;
+}
+
+#sidebarCol {
+    height: 100%;
+    z-index: 999;
+    width: 300px;
+  }
